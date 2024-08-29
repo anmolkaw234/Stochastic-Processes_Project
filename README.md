@@ -31,5 +31,13 @@ An effective range system is critical for optimizing the performance and reliabi
 
 ## Data Requirements and Collection
 ### Types of Data:
+- GPS Signal Strength: Collected from GPS trackers attached to a sample population of animals.
+- Environmental Data: Classified as Forest (F), Grassland (G), and Rocky Terrain (R).
+- Device Transitions: Recorded when devices move between different signal strengths and environments.
 
+## States Defined
+- Signal Strength Levels: High Signal, Medium Signal, Low Signal, and No Signal.
+- Environmental Conditions: Forest, Grassland, and Rocky Terrain.
 
+## Tech-Stack Used
+- Jupyter Notebook
