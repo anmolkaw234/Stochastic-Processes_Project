@@ -14,7 +14,7 @@ An effective range system is critical for optimizing the performance and reliabi
 - Consideration of various environmental conditions that can affect tracking range, like urban vs. rural settings.
 
 ### Practical Application
-- Ensure the model is adaptable for different types of tracking devices and real-world scenarios.
+- Ensure the model is adaptable for tracking devices and real-world scenarios.
 - Utilize historical data from tracking devices to inform and validate the model.
 
 ## Overview of the Methodology
@@ -23,9 +23,13 @@ An effective range system is critical for optimizing the performance and reliabi
 
 ## Methodology Steps
 - Data Collection: Gathering historical data from tracking devices, including signal strength, location, and environmental variables.
-- State Definition: Defining discrete states within the Markov Chain model, such as varying levels of signal strength.
+- State Definition: Defining discrete states within the Markov Chain model, such as varying signal strength levels.
 - Transition Probabilities: Calculating the probabilities of transitioning between these states based on the collected data.
 - Range Estimation: Using the Markov Chain to simulate and predict the device’s range under different conditions.
 
-### We used an example of Wildlife monitoring in which we estimate the effective range of GPS tracking devices used in monitoring wildlife in a national park.
-The park includes diverse environments such as dense forests, open grasslands, and rocky terrain.
+### We used an example of Wildlife monitoring in which we estimated the effective range of GPS tracking devices used in monitoring wildlife in a national park.The park includes diverse environments such as dense forests, open grasslands, and rocky terrain.
+
+## Data Requirements and Collection
+### Types of Data:
+
+
